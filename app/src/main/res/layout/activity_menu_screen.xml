@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuScreen">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="81dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="160dp"
+        android:text="Gender"
+        android:textColor="Black"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="80dp"
+        android:text="Name"
+        android:textColor="Black"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="119dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="236dp"
+        android:text="Blood Type"
+        android:textColor="Black"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="176dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_name3"
+        android:layout_width="176dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Blood Type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_name2"
+        android:layout_width="176dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="324dp"
+        android:text="Add Contact"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="384dp"
+        android:text="View Contacts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="324dp"
+        android:text="Search:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="176dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="388dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
